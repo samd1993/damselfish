@@ -1,0 +1,12 @@
+---
+title: "barplot"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+library(microbiome)
+
+ plot_regression(diversity ~ age, meta(pseq)
